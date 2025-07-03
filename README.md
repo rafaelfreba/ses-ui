@@ -14,7 +14,8 @@ Este pacote fornece componentes de UI, views e assets (CSS/JS/imagens) reutiliz�
 
 # 🚀 Instalação
 
-<h4>Edite o arquivo</h4> ``composer.json``:
+Edite o arquivo ``composer.json``:
+
 ```
 "require": {
         "seunome/ses-ui": "*"
