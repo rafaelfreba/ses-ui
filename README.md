@@ -18,12 +18,12 @@ Edite o arquivo ``composer.json``:
 
 ```
 "require": {
-        "seunome/ses-ui": "*"
+        "rafaelfreba/ses-ui": "*"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://dev.azure.com/minhaempresa/sistema/_git/ses-ui"
+            "url": "http://srv-az-devops.ses.int/DefaultCollection/codemsi/_git/ses-ui"
         }
     ]
 ```
