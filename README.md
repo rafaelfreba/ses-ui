@@ -6,13 +6,26 @@ Este pacote fornece componentes de UI, views e assets (CSS/JS/imagens) reutiliz�
 # ✅ Requisitos
 
 <ul>
-    <li>Laravel</li>
+    <li>Laravel Breeze</li>
     <li>Composer</li>
     <li>NPM</li>
     <li>PHP 8+</li>
 </ul>
 
 # 🚀 Instalação
+
+<h4>Edite o arquivo</h4> ``composer.json``:
+```
+"require": {
+        "seunome/ses-ui": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://dev.azure.com/minhaempresa/sistema/_git/ses-ui"
+        }
+    ]
+```
 
 <h4>Instale o pacote via Composer:</h4>
 
