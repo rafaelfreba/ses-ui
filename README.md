@@ -3,8 +3,6 @@
 Este pacote fornece componentes de UI, views e assets (CSS/JS/imagens) reutilizáveis para telas como login e recuperação de senha em aplicações Laravel.
 </p>
 
-<br/>
-
 # ✅ Requisitos
 
 <ul>
@@ -14,8 +12,6 @@ Este pacote fornece componentes de UI, views e assets (CSS/JS/imagens) reutiliz�
     <li>PHP 8+</li>
 </ul>
 
-<br/>
-
 # 🚀 Instalação
 
 <h4>Instale o pacote via Composer:</h4>
@@ -23,7 +19,6 @@ Este pacote fornece componentes de UI, views e assets (CSS/JS/imagens) reutiliz�
 ```
 composer require rafaelfreba/ses-ui
 ```
-<br/>
 
 # 📂 Publicação de arquivos
 
@@ -40,8 +35,6 @@ Ou, se preferir, publique partes específicas:
 | Componentes | `php artisan vendor:publish --tag=ses-ui-components` |
 | Assets      | `php artisan vendor:publish --tag=ses-ui-assets`     |
 
-<br/>
-
 # 🖼️ Uso das views
 
 Altere o arquivo ``app > Http > Controllers > Auth > AuthenticatedSessionController.php`` na linha 19:
@@ -52,8 +45,6 @@ Essa ação altera a tela de login e recuperação de senha. Já para alterar a 
 ```
 return view('ses-ui::auth.reset-password', ['request' => $request]);
 ```
-
-<br/>
 
 # 📁 Estrutura esperada após publicação
 
@@ -80,13 +71,9 @@ public/
             └── logo.png
 ```
 
-<br/>
-
 # 🛠️ Personalização
 
 Você pode editar livremente os arquivos publicados. Eles ficam totalmente desacoplados após a publicação.
-
-<br/>
 
 # 📃 Licença
 Este pacote é licenciado sob a licença MIT.
