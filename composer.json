@@ -1,0 +1,25 @@
+{
+    "name": "rafaelfreba/ses-ui",
+    "description": "Componentes de interface SES para Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Batista",
+            "email": "rafaelfreba@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SesUi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SesUi\\SesUiServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
