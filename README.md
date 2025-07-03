@@ -14,20 +14,6 @@ Este pacote fornece componentes de UI, views e assets (CSS/JS/imagens) reutiliz�
 
 # 🚀 Instalação
 
-Edite o arquivo ``composer.json``:
-
-```
-"require": {
-        "rafaelfreba/ses-ui": "*"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "http://srv-az-devops.ses.int/DefaultCollection/codemsi/_git/ses-ui"
-        }
-    ]
-```
-
 <h4>Instale o pacote via Composer:</h4>
 
 ```
